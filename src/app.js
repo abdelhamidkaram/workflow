@@ -1,4 +1,5 @@
-function greate(name){
+export default function greate(name){
     console.log(`Hello ${name}`);
 }
-greate("John");
+
+greate('John');
