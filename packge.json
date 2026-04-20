@@ -1,0 +1,11 @@
+{
+    "name": "workflow",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+
+    "scripts": {
+        "test": "bash src/test.sh"
+    }
+    
+}
