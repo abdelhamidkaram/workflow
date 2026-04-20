@@ -9,5 +9,9 @@ jobs:
    steps:
      - name: print welcome message
        run: echo 'welcome'
+     - name: checkout-repository
+       uses: actions/checkout@v6.0.2
+     - name: show-files
+       run: ls -la
 
     
